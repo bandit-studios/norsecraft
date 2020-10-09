@@ -4,6 +4,7 @@ import dev.mauritzen.norsecraft.Norsecraft;
 import dev.mauritzen.norsecraft.blocks.BlockItemBase;
 import dev.mauritzen.norsecraft.blocks.NorseGemBlock;
 import dev.mauritzen.norsecraft.blocks.NorseGemOreBlock;
+import dev.mauritzen.norsecraft.items.IdunApple;
 import dev.mauritzen.norsecraft.items.ItemBase;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -24,6 +25,9 @@ public class RegistryHandler {
 	
 	// Items
 	public static final RegistryObject<Item> NORSE_GEM = ITEMS.register("norsegem", ItemBase::new);
+
+	// Food
+	public static final RegistryObject<Item> IDUN_APPLE = ITEMS.register("idun_apple", IdunApple::new);
 
 	// Blocks
 	public static final RegistryObject<Block> NORSE_GEM_BLOCK = BLOCKS.register("norsegem_block", NorseGemBlock::new);
