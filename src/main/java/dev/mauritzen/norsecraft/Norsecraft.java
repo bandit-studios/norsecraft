@@ -2,6 +2,8 @@ package dev.mauritzen.norsecraft;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -54,6 +56,13 @@ public class Norsecraft
     }
 
 
+    public static final ItemGroup TAB = new ItemGroup("norsecraftTab") {
+    	@Override
+    	public ItemStack createIcon() {
+    		return new ItemStack(RegistryHandler.NORSE_GEM.get());
+    	}
+    };
+    
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(FMLServerStartingEvent event) {

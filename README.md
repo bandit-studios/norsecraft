@@ -15,7 +15,7 @@ Norse mythology themed mod for minecraft
 
 4) Add the project as an existing gradle project in eclipse
 
-5) In the gradle menu down load, gen the eclipse runs and run the eclipse task.  I think these two do different things and I don't think the order mattres.
+5) In the gradle menu, you'll need to run two tasks `fg_runs/genEclipseRuns` and `ide/eclipse`.  I think these two do different things and I don't think the order mattres.
 
 6) Run it!  You might need to open your run configurations to see it, but you should now have RunClient, RunData, and RunServer.  Run that client and the minecraft game window should open up.  Click on the mods button and behold Norsecraft is installed.
 
