@@ -1,7 +1,7 @@
 {
     "variants": {
         "": {
-            "model": "bsnorsecraft:norsegem:block/norsegem_block"
+            "model": "bsnorsecraft:block/norsegem_block"
         }
     }
 }
