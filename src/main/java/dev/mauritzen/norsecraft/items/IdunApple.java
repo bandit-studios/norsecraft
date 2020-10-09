@@ -6,6 +6,11 @@ import net.minecraft.item.Item;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effects;
 
+/**
+ * A special apple item that imbues the consumer with health boost.
+ * According to mythology, these apples were eaten by the god to maintain their youth.
+ *
+ */
 public class IdunApple extends Item {
 	public IdunApple() {
 		super(new Item.Properties()
