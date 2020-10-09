@@ -27,11 +27,11 @@ public class RegistryHandler {
 
 	// Blocks
 	public static final RegistryObject<Block> NORSE_GEM_BLOCK = BLOCKS.register("norsegem_block", NorseGemBlock::new);
-	public static final RegistryObject<Block> NORSE_GEM_ORE_BLOCK = BLOCKS.register("norsegem__ore_block", NorseGemOreBlock::new);
+	public static final RegistryObject<Block> NORSE_GEM_ORE_BLOCK = BLOCKS.register("norsegem_ore_block", NorseGemOreBlock::new);
 	
 	// Block Items
 	public static final RegistryObject<Item> NORSE_GEM_BLOCK_ITEM = ITEMS.register("norsegem_block", () -> new BlockItemBase(NORSE_GEM_BLOCK.get()));
-	public static final RegistryObject<Item> NORSE_GEM_ORE_BLOCK_ITEM = ITEMS.register("norsegem_block", () -> new BlockItemBase(NORSE_GEM_ORE_BLOCK.get()));
+	public static final RegistryObject<Item> NORSE_GEM_ORE_BLOCK_ITEM = ITEMS.register("norsegem_ore_block", () -> new BlockItemBase(NORSE_GEM_ORE_BLOCK.get()));
 	
 	
 }
