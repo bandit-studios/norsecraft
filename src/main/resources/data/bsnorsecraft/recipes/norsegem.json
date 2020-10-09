@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "bsnorsecraft:norsegem_block"
+      }
+    ],
+    "result":
+    {
+      "item": "bsnorsecraft:norsegem",
+      "count": 9
+    }
+  }
