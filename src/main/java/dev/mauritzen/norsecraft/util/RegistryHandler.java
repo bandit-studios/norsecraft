@@ -6,8 +6,11 @@ import dev.mauritzen.norsecraft.blocks.NorseGemBlock;
 import dev.mauritzen.norsecraft.blocks.NorseGemOreBlock;
 import dev.mauritzen.norsecraft.items.IdunApple;
 import dev.mauritzen.norsecraft.items.ItemBase;
+import dev.mauritzen.norsecraft.tools.MjolnirItem;
+import dev.mauritzen.norsecraft.tools.ModItemTier;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import net.minecraft.item.SwordItem;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -36,6 +39,9 @@ public class RegistryHandler {
 	// Block Items
 	public static final RegistryObject<Item> NORSE_GEM_BLOCK_ITEM = ITEMS.register("norsegem_block", () -> new BlockItemBase(NORSE_GEM_BLOCK.get()));
 	public static final RegistryObject<Item> NORSE_GEM_ORE_BLOCK_ITEM = ITEMS.register("norsegem_ore_block", () -> new BlockItemBase(NORSE_GEM_ORE_BLOCK.get()));
-	
+
+	//Tools
+	public static final RegistryObject<MjolnirItem> MJOLNIR = ITEMS.register("mjolnir", () -> 
+			new MjolnirItem(ModItemTier.GODTIER, 2, -3.1F, new Item.Properties().group(Norsecraft.TAB)));
 	
 }
