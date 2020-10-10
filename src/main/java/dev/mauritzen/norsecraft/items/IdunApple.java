@@ -63,6 +63,5 @@ public class IdunApple extends Item {
 	   return super.onItemUseFinish(stack, worldIn, entityLiving);
    }
    
-   
 
 }

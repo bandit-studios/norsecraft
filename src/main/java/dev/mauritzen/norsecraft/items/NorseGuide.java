@@ -13,7 +13,7 @@ import net.minecraft.world.World;
 
 public class NorseGuide extends Item {
 
-	public NorseGuide(Properties properties) {
+	public NorseGuide() {
 		super(new Item.Properties().group(Norsecraft.TAB));
 	}
 
