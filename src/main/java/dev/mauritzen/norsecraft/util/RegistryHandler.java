@@ -25,6 +25,7 @@ public class RegistryHandler {
 	
 	// Items
 	public static final RegistryObject<Item> NORSE_GEM = ITEMS.register("norsegem", ItemBase::new);
+	public static final RegistryObject<Item> NORSE_GUIDE = ITEMS.register("norse_guide", ItemBase::new);
 
 	// Food
 	public static final RegistryObject<Item> IDUN_APPLE = ITEMS.register("idun_apple", IdunApple::new);
