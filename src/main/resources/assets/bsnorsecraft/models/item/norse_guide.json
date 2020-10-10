@@ -1,0 +1,6 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "bsnorsecraft:items/norse_guide"
+	}
+}
