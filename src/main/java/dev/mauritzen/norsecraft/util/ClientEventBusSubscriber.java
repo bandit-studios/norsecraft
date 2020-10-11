@@ -2,6 +2,7 @@ package dev.mauritzen.norsecraft.util;
 
 import dev.mauritzen.norsecraft.Norsecraft;
 import dev.mauritzen.norsecraft.client.render.BoarRenderer;
+import dev.mauritzen.norsecraft.client.render.RavenRenderer;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
@@ -14,5 +15,6 @@ public class ClientEventBusSubscriber {
 	@SubscribeEvent
 	public static void onClientSetup(FMLClientSetupEvent event) {
 		RenderingRegistry.registerEntityRenderingHandler(RegistryHandler.BOAR_ENTITY.get(), BoarRenderer::new);
+		RenderingRegistry.registerEntityRenderingHandler(RegistryHandler.RAVEN_ENTITY.get(), RavenRenderer::new);
 	}
 }

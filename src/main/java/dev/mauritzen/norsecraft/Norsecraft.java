@@ -22,6 +22,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import dev.mauritzen.norsecraft.entities.BoarEntity;
+import dev.mauritzen.norsecraft.entities.RavenEntity;
 import dev.mauritzen.norsecraft.util.RegistryHandler;
 
 import java.util.stream.Collectors;
@@ -56,6 +57,7 @@ public class Norsecraft
         
         DeferredWorkQueue.runLater(() -> {
         	GlobalEntityTypeAttributes.put(RegistryHandler.BOAR_ENTITY.get(), BoarEntity.setCustomAttributes().create());
+        	GlobalEntityTypeAttributes.put(RegistryHandler.RAVEN_ENTITY.get(), RavenEntity.setCustomAttributes().create());
         });
         
     }

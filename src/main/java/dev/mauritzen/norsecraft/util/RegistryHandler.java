@@ -5,6 +5,7 @@ import dev.mauritzen.norsecraft.blocks.BlockItemBase;
 import dev.mauritzen.norsecraft.blocks.NorseGemBlock;
 import dev.mauritzen.norsecraft.blocks.NorseGemOreBlock;
 import dev.mauritzen.norsecraft.entities.BoarEntity;
+import dev.mauritzen.norsecraft.entities.RavenEntity;
 import dev.mauritzen.norsecraft.items.Dropnir;
 import dev.mauritzen.norsecraft.items.IdunApple;
 import dev.mauritzen.norsecraft.items.ItemBase;
@@ -53,6 +54,13 @@ public class RegistryHandler {
 					() -> EntityType.Builder.create(BoarEntity::new, EntityClassification.CREATURE)
 					.size(1.0f, 1.0f)
 					.build(new ResourceLocation(Norsecraft.MOD_ID, "boar").toString())
+					);
+	
+	public static final RegistryObject<EntityType<RavenEntity>> RAVEN_ENTITY = 
+			ENTITY_TYPES.register("raven",
+					() -> EntityType.Builder.create(RavenEntity::new, EntityClassification.CREATURE)
+					.size(1.0f, 1.0f)
+					.build(new ResourceLocation(Norsecraft.MOD_ID, "raven").toString())
 					);
 	
 }
