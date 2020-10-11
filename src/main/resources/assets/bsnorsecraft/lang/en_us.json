@@ -5,5 +5,6 @@
 	"item.bsnorsecraft.dropnir": "Dropnir",
     "block.bsnorsecraft.norsegem_block": "Norse Gem Block",
     "block.bsnorsecraft.norsegem_ore_block": "Norse Gem Ore",
+	"entity.bsnorsecraft.boar": "Boar",
     "itemGroup.norsecraftTab": "Norsecraft"
 }
