@@ -10,9 +10,13 @@ import dev.mauritzen.norsecraft.items.Dropnir;
 import dev.mauritzen.norsecraft.items.IdunApple;
 import dev.mauritzen.norsecraft.items.ItemBase;
 import dev.mauritzen.norsecraft.items.NorseGuide;
+import dev.mauritzen.norsecraft.tools.MjolnirItem;
+import dev.mauritzen.norsecraft.entities.MjolnirEntity;
+import dev.mauritzen.norsecraft.tools.ModItemTier;
 import net.minecraft.block.Block;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.EntityType;
+import net.minecraft.entity.projectile.TridentEntity;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.RegistryObject;
@@ -66,5 +70,12 @@ public class RegistryHandler {
 					.size(1.0f, 1.0f)
 					.build(new ResourceLocation(Norsecraft.MOD_ID, "raven").toString())
 					);
+	
+	/*public static final RegistryObject<EntityType<MjolnirEntity>> MJOLNIR_ENTITY = 
+			ENTITY_TYPES.register("mjolnir",
+					() -> EntityType.Builder.create(MjolnirEntity::new, EntityClassification.MISC)
+					.size(0.5F, 0.5F)
+					.build(new ResourceLocation(Norsecraft.MOD_ID, "mjolnir").toString())
+					);*/
 	
 }
