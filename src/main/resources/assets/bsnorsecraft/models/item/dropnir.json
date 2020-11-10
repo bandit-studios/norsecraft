@@ -1,0 +1,16 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "bsnorsecraft:items/dropnir"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [81, 55, -20],
+			"scale": [0.54, 0.55, 0.54]
+		},
+		"ground": {
+			"translation": [0, 2.25, 0]
+		}
+	}
+}

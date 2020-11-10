@@ -1,8 +1,11 @@
 {
     "item.bsnorsecraft.norsegem": "Norse Gem",
+    "item.bsnorsecraft.norse_guide": "Norsecraft Guide",
     "item.bsnorsecraft.idun_apple": "Idun's Apple",
+    "item.bsnorsecraft.dropnir": "Dropnir",
+    "item.bsnorsecraft.mjolnir": "Mjölnir",
     "block.bsnorsecraft.norsegem_block": "Norse Gem Block",
     "block.bsnorsecraft.norsegem_ore_block": "Norse Gem Ore",
-    "itemGroup.norsecraftTab": "Norsecraft",
-    "item.bsnorsecraft.mjolnir": "Mjölnir"
+    "entity.bsnorsecraft.boar": "Boar",
+    "itemGroup.norsecraftTab": "Norsecraft"
 }
